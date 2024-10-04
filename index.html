@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hiện 4 phép toán cộng trừ nhân chia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thực hiện 4 phép toán cộng trừ nhân chia</h1>
+        <div class="input-row">
+            <input type="number" id="num1" placeholder="Số thứ nhất" required>
+            
+            <select id="operation" required>
+                <option value="+">Cộng (+)</option>
+                <option value="-">Trừ (-)</option>
+                <option value="*">Nhân (*)</option>
+                <option value="/">Chia (/)</option>
+            </select>
+            
+            <input type="number" id="num2" placeholder="Số thứ hai" required>
+            
+            <button onclick="calculate()">=</button>
+            
+            <input type="text" id="result" placeholder="Kết quả" readonly>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

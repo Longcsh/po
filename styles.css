@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Chiều rộng để phù hợp với các ô */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input, select {
+    width: 15%; /* Điều chỉnh chiều rộng của các ô nhập liệu */
+    padding: 10px;
+    margin-right: 10px; /* Khoảng cách giữa các ô */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px; /* Đảm bảo tất cả các ô đều có chiều cao bằng nhau */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    height: 40px; /* Đảm bảo nút cũng có chiều cao bằng nhau */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    width: 20%; /* Chiều rộng của ô kết quả */
+    font-size: 1.5em;
+    color: #333;
+    margin-left: 10px; /* Khoảng cách bên trái */
+    text-align: center; /* Căn giữa nội dung */
+    height: 40px; /* Đảm bảo ô kết quả có chiều cao bằng nhau */
+    border: 1px solid #ccc; /* Thêm đường viền cho ô kết quả */
+    border-radius: 5px; /* Làm tròn các góc */
+    background-color: #e9ecef; /* Thêm màu nền để phân biệt */
+}
